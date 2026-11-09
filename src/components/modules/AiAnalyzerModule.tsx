@@ -45,7 +45,7 @@ Socket Programming: TCP (connection-oriented, 3-way handshake, reliable, ServerS
     setAnalysisResult(null);
 
     try {
-      const res = await fetch("/api/v1/ai/analyze-notes", {
+      const res = await fetch("/api/ai/analyze-notes", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

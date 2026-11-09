@@ -32,7 +32,7 @@ export const SmartSearchModule: React.FC<SmartSearchProps> = ({ apiKey, onAddXp 
     setAnswer(null);
 
     try {
-      const res = await fetch("/api/v1/ai/ask", {
+      const res = await fetch("/api/ai/ask", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
